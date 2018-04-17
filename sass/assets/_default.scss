@@ -1,0 +1,158 @@
+@font-face {
+	font-family: 'gilroy-extrabold';
+	src: url("../fonts/gilroy-extrabold-webfont.woff2") format("woff2"), url("../fonts/gilroy-extrabold-webfont.woff") format("woff");
+	font-weight: normal;
+	font-style: normal; 
+}
+
+@font-face {
+	font-family: 'gilroy-light';
+	src: url("../fonts/gilroy-light-webfont.woff2") format("woff2"), url("../fonts/gilroy-light-webfont.woff") format("woff");
+	font-weight: normal;
+	font-style: normal; 
+}
+
+
+@font-face {
+	font-family: "Flaticon";
+	src: url("../fonts/Flaticon.eot");
+	src: url("../fonts/Flaticon.eot?#iefix") format("embedded-opentype"),
+	url("../fonts/Flaticon.woff") format("woff"),
+	url("../fonts/Flaticon.ttf") format("truetype"),
+	url("../fonts/Flaticon.svg#Flaticon") format("svg");
+	font-weight: normal;
+	font-style: normal;
+}  
+
+@media screen and (-webkit-min-device-pixel-ratio:0) {
+	@font-face {
+		font-family: "Flaticon";
+		src: url("../fonts/Flaticon.svg#Flaticon") format("svg");
+	}
+}
+
+
+.flex-container {
+	display: flex;
+	width: 100%;
+}
+
+section {
+	flex: 1 1 auto;
+	overflow: auto;
+	padding: 50px;
+	width: 100%;
+}
+
+aside {
+	flex: 0 0 auto;
+	background-color: #fff;
+	min-height: 100vh;
+	font-family: "gilroy-extrabold", sans-serif;
+}
+
+main{
+	padding-left: 200px;
+	width: 100%;
+}
+
+.logo{
+	margin: 30px 0 30px 30px;
+}
+
+.page-header {
+	font-size: 40px;
+	text-transform: uppercase;
+	margin-top: 100px;
+	margin-bottom: 50px;
+}
+
+.bs-docs-example {
+	position: relative;
+	margin: 15px 0;
+	padding: 39px 19px 14px;
+	background-color: #eee;
+	border: 1px solid #ddd;
+	-webkit-border-radius: 4px;
+	-moz-border-radius: 4px;
+	border-radius: 4px;
+}
+
+.bs-docs-example:after {
+	content: "Exemplo";
+	position: absolute;
+	top: -1px;
+	left: -1px;
+	padding: 3px 7px;
+	font-size: 12px;
+	font-weight: bold;
+	background-color: #f5f5f5;
+	border: 1px solid #ddd;
+	color: #9da0a4;
+	-webkit-border-radius: 4px 0 4px 0;
+	-moz-border-radius: 4px 0 4px 0;
+	border-radius: 4px 0 4px 0;
+}
+
+code {
+	padding: 2px 4px;
+	color: #d14;
+	white-space: nowrap;
+	background-color: #f7f7f9;
+	border: 1px solid #e1e1e8;
+}
+
+.prettyprint {
+	padding: 8px;
+	background-color: #f7f7f9;
+	border: 1px solid #e1e1e8;
+}
+
+.bs-docs-example + .prettyprint {
+	margin-top: -20px;
+	padding-top: 15px;
+}
+
+pre.prettyprint {
+	margin-bottom: 20px;
+}
+
+.prettyprint  ol{
+	list-style: none;
+}
+.row {
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	-ms-flex-wrap: wrap;
+	flex-wrap: wrap;
+	margin-right: -15px;
+	margin-left: -15px;
+}
+
+.col {
+	-ms-flex-preferred-size: 0;
+	flex-basis: 0;
+	-webkit-box-flex: 1;
+	-ms-flex-positive: 1;
+	flex-grow: 1;
+	max-width: 100%;
+	position: relative;
+	width: 100%;
+	min-height: 1px;
+	padding-right: 15px;
+	padding-left: 15px;    
+}
+
+
+.cor{
+    padding: 70px 10px 10px 10px;
+    border: 1px solid #ccc;  
+    min-height: 80px;
+    font-weight: 900;
+    text-transform: uppercase;
+}
+
+.cor span{
+	margin-top:-20px;
+}

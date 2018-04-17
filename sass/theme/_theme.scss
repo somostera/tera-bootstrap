@@ -1,0 +1,68 @@
+body {
+	font-family: "Verdana", sans-serif;
+	background-color: #E6E6E6;
+	width: 100%;
+	color: #222222;
+	font-size: 14px;
+	line-height: 24px;
+	font-weight: 400;
+	text-rendering: optimizeLegibility;
+	-webkit-font-smoothing: antialiased;  
+}
+
+h1, .h1,
+h2, .h2,
+h3, .h3,
+h4, .h4,
+h5, .h5 {
+font-family: "gilroy-extrabold", sans-serif;
+text-rendering: optimizeLegibility;
+-webkit-font-smoothing: antialiased; }
+
+h1, .h1 {
+font-size: 48px; }
+
+h2, .h2 {
+font-size: 36px;
+margin-bottom: 0px; }
+
+h3, .h3 {
+font-size: 24px;
+margin-bottom: 0px; }
+
+h4, .h4 {
+font-size: 21px; }
+
+h5, .h5 {
+font-size: 18px; }
+
+h4, .h4,
+h5, .h5 {
+font-family: "verdana", sans-serif; }
+
+
+
+small {
+font-size: 12px;
+line-height: 18px; }
+
+
+.text-left{
+	text-align: left;
+}
+
+
+.text-center{
+	text-align: center;
+}
+
+.text-right{
+	text-align: right;
+}
+
+
+
+ul ul{
+	padding-left: 25px
+}
+

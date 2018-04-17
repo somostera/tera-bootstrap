@@ -1,0 +1,103 @@
+
+
+::placeholder {
+  color: #000;
+}
+
+
+
+
+.gform_wrapper .gform_body input, 
+.gform_wrapper .gform_body textarea, 
+.gform_wrapper .gform_body select {
+    border: 4px solid #000 !important;
+    color: #666;
+    width: 100%;
+    margin-bottom: 8px;
+    background: none
+}
+
+select {
+    position: relative;
+    cursor: pointer;
+    display: inline-block;
+    font-size: 14px;
+    color: #fff;
+    border: 2px solid #fff;
+    padding: 6px 10px;
+    border-radius: 0;
+    box-shadow: none;
+    background-color: transparent;
+    background-image: none;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+}
+
+.ginput_container.ginput_container_select:after {
+    content: "";
+    display: block;
+    width: 16px;
+    height: 16px;
+    position: absolute;
+    width: 0px;
+    right: 22px;
+    top: 50%;
+    margin-top: -5px;
+    pointer-events: none;
+    border-left: 7px solid transparent;
+    border-right: 7px solid transparent;
+    border-top: 7px solid #ccc;
+}
+
+.ginput_container.ginput_container_select {
+    position: relative;
+}
+
+
+.radio, .checkbox{
+  padding-left: 20px;
+}
+
+.gform_wrapper input:not([type=radio]):not([type=checkbox]):not([type=submit]):not([type=button]):not([type=image]):not([type=file]) {
+    padding: 5px 15px 6px!important;
+    outline: none;
+} 
+
+
+.btn {
+    border: 4px solid #000;
+    background: transparent;
+    font-family: "arial", sans-serif;
+    font-weight: 900;
+    font-size: 13px;
+    color: #000;
+    text-transform: uppercase;
+    border-radius: 0;
+    min-width: 180px;
+    margin-top: 15px;
+    outline: none!important;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 10px;
+}
+
+
+.btn-alt{
+  background-color: #000;
+  color: #fff;
+}
+
+.mini-btn {
+    background: #000;
+    display: inline-block;
+    width: 180px;
+    color: #fff;
+    text-transform: uppercase;
+    font-size: 11px;
+    text-align: center;
+    margin-top: 4px;
+    font-weight: 600;
+    border: 2px solid #000;
+    font-family: arial;
+}
